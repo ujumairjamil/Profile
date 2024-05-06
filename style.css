@@ -1,0 +1,55 @@
+#photo-profile {
+  margin-top: 80px;
+}
+.header {
+  background: white;
+}
+.nav-link {
+  color: rgb(37, 36, 36);
+}
+.nav {
+  --bs-nav-link-hover-color: green;
+  font-family: "Titillium Web", sans-serif;
+}
+h1,
+h2 {
+  font-family: "Suez One", serif;
+}
+p,
+text {
+  font-family: "Dekko", cursive;
+}
+#about,
+#contact {
+  background-color: #183d3d;
+  color: white;
+}
+.col {
+  background-color: white;
+}
+#skills {
+  background-color: #183d3d;
+}
+#skills div.col {
+  background-color: #183d3d;
+}
+#skills p {
+  font-family: "Titillium Web", sans-serif;
+}
+#skills .card-title {
+  color: green;
+}
+@media (min-width: 992px) {
+  .col.first,
+  .col.second,
+  .col.third {
+    display: grid;
+    gap: 10px;
+  }
+}
+@media (max-width: 538px) {
+  .contact-box {
+    display: inline-flex;
+    flex-direction: column;
+  }
+}
